@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 
 * {
@@ -13,8 +16,9 @@
 }
 .container {
     display: grid;
-    grid-template-rows: 3fr 0.5fr 1fr;
+    grid-template-rows: 3fr 0.3fr 1fr;
     height: 100vh;
+    margin: 0 2rem 0 2rem;
 }
 
 /* body {
@@ -29,7 +33,7 @@
 
 h1 {
     font-family: 'IM Fell Double Pica SC', serif;
-    font-size: 8vh;
+    font-size: 8svh;
     position: absolute;
     bottom: 0;
 }
@@ -47,15 +51,19 @@ p {
 }
 
 .content p {
-    font-family: Menlo,Courier,monospace;
+    /* font-family: Menlo,Courier,monospace; */
+    font-family: 'Jacques Francois', serif;
     font-size: 0.9rem;
-    padding: 0.1rem 0 0.1rem 0;
+    /* padding: 0.1rem 0 0.1rem 0; */
     display: inline-block;
 }
 
 .typeWriter {
-    font-family: Menlo,Courier,monospace;
-    padding: 0.7rem 0 0.7rem 0;
+    /* font-family: Menlo,Courier,monospace; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Jacques Francois', serif;
+    /* font-family: 'Ibarra Real Nova', serif; */
+    /* padding: 0.7rem 0 0.7rem 0; */
     height: 100%;
     display: flex;
     /*justify-content: center;*/
