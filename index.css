@@ -35,7 +35,10 @@ body {
 }
 a {
     text-decoration: none;
-    color: beige;
+    /* color: beige; */
+}
+.more-info > div > a {
+    color: #9A9A9A;
 }
 
 h1 {
@@ -83,12 +86,13 @@ p {
     /* letter-spacing: 0rem; */
     text-align: center;
     overflow: hidden;
-    color: #ddd;
+    color:#9b9797;
+    ;
 
 }
 .typeWriter p span.typed-text {
     font-weight: normal;
-    color: #ddd;
+    color: #9b9797;
 }
 .typeWriter p span.cursor {
     display: inline-block;
