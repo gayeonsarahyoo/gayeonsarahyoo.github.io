@@ -18,7 +18,7 @@
     display: grid;
     grid-template-rows: 3fr 0.3fr 1fr;
     height: 100vh;
-    margin: 0 2rem 0 2rem;
+    margin: 0 4vw 0 4vw;
 }
 
 /* body {
@@ -34,16 +34,16 @@
 h1 {
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 8vh;
-    color: red;
+    color: white;
     position: absolute;
     bottom: 0;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 3.5vh;
 }
 .arrow {
-    margin-right: 0.8rem;
+    margin-right: 3px;
     color: #9A9A9A;
     opacity: 0.5;
 }
@@ -54,7 +54,7 @@ p {
 .content p {
     /* font-family: Menlo,Courier,monospace; */
     font-family: 'Jacques Francois', serif;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     /* padding: 0.1rem 0 0.1rem 0; */
     display: inline-block;
 }
@@ -73,7 +73,7 @@ p {
 .typeWriter p {
     padding-right: 0.5rem;
     font-weight: bold;
-    letter-spacing: 0rem;
+    /* letter-spacing: 0rem; */
     text-align: center;
     overflow: hidden;
     color: #ddd;
