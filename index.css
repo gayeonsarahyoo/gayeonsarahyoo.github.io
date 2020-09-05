@@ -34,6 +34,7 @@
 h1 {
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 8vh;
+    color: red;
     position: absolute;
     bottom: 0;
 }
