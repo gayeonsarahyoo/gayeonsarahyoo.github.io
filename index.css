@@ -33,7 +33,7 @@
 
 h1 {
     font-family: 'IM Fell Double Pica SC', serif;
-    font-size: 8svh;
+    font-size: 8vh;
     position: absolute;
     bottom: 0;
 }
@@ -75,10 +75,12 @@ p {
     letter-spacing: 0rem;
     text-align: center;
     overflow: hidden;
+    color: #ddd;
+
 }
 .typeWriter p span.typed-text {
     font-weight: normal;
-    color: white;
+    color: #ddd;
 }
 .typeWriter p span.cursor {
     display: inline-block;
