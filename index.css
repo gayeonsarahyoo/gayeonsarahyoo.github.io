@@ -14,11 +14,14 @@
     background-color: #000;
     color: #eee;
 }
+body {
+    margin: 0 4vw 0 4vw;
+}
+
 .container {
     display: grid;
     grid-template-rows: 3fr 0.3fr 1fr;
     height: 100vh;
-    margin: 0 4vw 0 4vw;
 }
 
 /* body {
@@ -29,6 +32,10 @@
 } */
 .name {
     position: relative;
+}
+a {
+    text-decoration: none;
+    color: beige;
 }
 
 h1 {
@@ -133,3 +140,16 @@ p {
         font-size: 0.8rem;
     }
 } */
+
+.more-info {
+    font-family: 'IM Fell Double Pica SC', serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.more-info > div{
+    font-size: 18vh;
+    margin: auto 0 auto 0;
+}
+
