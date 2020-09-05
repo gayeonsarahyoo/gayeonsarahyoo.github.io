@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Mansalva&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 15rem 0 0 25rem;
+    background-color: #000;
+    color: #eee;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 1rem;
+}
+.arrow {
+    margin-right: 0.8rem;
+    color: #9A9A9A;
+    opacity: 0.5;
+}
+
+
+
+.content p {
+    font-family: Menlo,Courier,monospace;
+    font-size: 0.9rem;
+    padding: 0.1rem 0 0.1rem 0;
+    display: inline-block;
+}
+
+.typeWriter {
+    font-family: Menlo,Courier,monospace;
+    padding: 0.7rem 0 0.7rem 0;
+    height: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.typeWriter p {
+    padding-right: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    text-align: center;
+    overflow: hidden;
+}
+.typeWriter p span.typed-text {
+    font-weight: normal;
+    color: white;
+}
+.typeWriter p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 2px;
+    animation: blink 1s infinite;
+}
+.typeWriter p span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
+
+
+@media(max-width: 1150px) {
+    body {
+        margin: 15rem 0 0 20rem;
+        font-family: "Fira Code","SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+        background-color: #000;
+        color: #eee;
+        height: 100vh;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 900px) {
+    body {
+        margin: 15rem 0 0 15rem;
+        font-family: "Fira Code","SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+        background-color: #000;
+        color: #eee;
+        height: 100vh;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
